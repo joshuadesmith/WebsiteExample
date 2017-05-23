@@ -1,0 +1,17 @@
+{
+  "name": "WebsiteEx",
+  "version": "1.0.0",
+  "description": "Example Website to get experience with Angular",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@angular/core": "^4.1.3",
+    "rxjs": "^5.4.0",
+    "zone.js": "^0.8.11"
+  }
+}
