@@ -9,6 +9,7 @@ var core_1 = require("@angular/core");
 var platform_browser_1 = require("@angular/platform-browser");
 var forms_1 = require("@angular/forms");
 var app_component_js_1 = require("./app.component.js");
+var hero_detail_component_js_1 = require("./hero-detail.component.js");
 var AppModule = (function () {
     function AppModule() {
     }
@@ -21,7 +22,8 @@ AppModule = __decorate([
             forms_1.FormsModule
         ],
         declarations: [
-            app_component_js_1.AppComponent
+            app_component_js_1.AppComponent,
+            hero_detail_component_js_1.HeroDetailComponent
         ],
         bootstrap: [app_component_js_1.AppComponent]
     })
