@@ -8,8 +8,12 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 var core_1 = require("@angular/core");
 var platform_browser_1 = require("@angular/platform-browser");
 var forms_1 = require("@angular/forms");
+var app_routing_module_js_1 = require("./app-routing.module.js");
 var app_component_js_1 = require("./app.component.js");
 var hero_detail_component_js_1 = require("./hero-detail.component.js");
+var heroes_component_js_1 = require("./heroes.component.js");
+var hero_service_js_1 = require("./hero.service.js");
+var dashboard_component_js_1 = require("./dashboard.component.js");
 var AppModule = (function () {
     function AppModule() {
     }
@@ -19,11 +23,17 @@ AppModule = __decorate([
     core_1.NgModule({
         imports: [
             platform_browser_1.BrowserModule,
-            forms_1.FormsModule
+            forms_1.FormsModule,
+            app_routing_module_js_1.AppRoutingModule
         ],
         declarations: [
             app_component_js_1.AppComponent,
-            hero_detail_component_js_1.HeroDetailComponent
+            hero_detail_component_js_1.HeroDetailComponent,
+            heroes_component_js_1.HeroesComponent,
+            dashboard_component_js_1.DashboardComponent
+        ],
+        providers: [
+            hero_service_js_1.HeroService
         ],
         bootstrap: [app_component_js_1.AppComponent]
     })
