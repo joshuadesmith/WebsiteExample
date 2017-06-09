@@ -8,8 +8,8 @@ import { Location } from '@angular/common';
 
 import 'rxjs/add/operator/switchMap';
 
-import {Hero} from "./hero.js";
-import {HeroService} from "./hero.service.js";
+import {Hero} from "./hero";
+import {HeroService} from "./hero.service";
 
 @Component({
     selector: 'hero-detail',

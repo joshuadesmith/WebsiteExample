@@ -2,16 +2,16 @@ import { NgModule }             from '@angular/core';
 import { BrowserModule }        from '@angular/platform-browser';
 import { FormsModule }          from '@angular/forms';
 import { HttpModule }           from '@angular/http';
-import { AppRoutingModule }     from './app-routing.module.js';
+import { AppRoutingModule }     from './app-routing.module';
 
 import { InMemoryWebApiModule } from 'angular-in-memory-web-api';
-import { InMemoryDataService }  from './in-memory-data.service.js';
+import { InMemoryDataService }  from './in-memory-data.service';
 
-import { AppComponent }         from './app.component.js';
-import { HeroDetailComponent }  from "./hero-detail.component.js";
-import { HeroesComponent }      from "./heroes.component.js";
-import { HeroService }          from "./hero.service.js"
-import { DashboardComponent }   from "./dashboard.component.js";
+import { AppComponent }         from './app.component';
+import { HeroDetailComponent }  from "./hero-detail.component";
+import { HeroesComponent }      from "./heroes.component";
+import { HeroService }          from "./hero.service"
+import { DashboardComponent }   from "./dashboard.component";
 
 @NgModule({
     imports: [

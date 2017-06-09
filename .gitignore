@@ -3,3 +3,9 @@ node_modules/*
 
 # Ignore .idea stuffs
 .idea/*
+
+# Ignore non ts that arent necessary
+src/main.js
+src/main.js.map
+src/app/*.js
+src/app/*.js.map
