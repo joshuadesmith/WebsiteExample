@@ -57,9 +57,9 @@ var HeroesComponent = (function () {
 HeroesComponent = __decorate([
     core_1.Component({
         selector: 'my-heroes',
-        templateUrl: './src/app/heroes.component.html',
+        templateUrl: './heroes.component.html',
         styleUrls: [
-            './src/app/heroes.component.css'
+            './heroes.component.css'
         ],
         providers: [
             hero_service_js_1.HeroService

@@ -45,8 +45,8 @@ __decorate([
 HeroDetailComponent = __decorate([
     core_1.Component({
         selector: 'hero-detail',
-        templateUrl: './src/app/hero-detail.component.html',
-        styleUrls: ['./src/app/hero-detail.component.css']
+        templateUrl: './hero-detail.component.html',
+        styleUrls: ['./hero-detail.component.css']
     }),
     __metadata("design:paramtypes", [hero_service_js_1.HeroService,
         router_1.ActivatedRoute,

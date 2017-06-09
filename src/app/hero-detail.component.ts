@@ -13,8 +13,8 @@ import {HeroService} from "./hero.service.js";
 
 @Component({
     selector: 'hero-detail',
-    templateUrl: './src/app/hero-detail.component.html',
-    styleUrls: ['./src/app/hero-detail.component.css']
+    templateUrl: './hero-detail.component.html',
+    styleUrls: ['./hero-detail.component.css']
 })
 
 export class HeroDetailComponent implements OnInit {

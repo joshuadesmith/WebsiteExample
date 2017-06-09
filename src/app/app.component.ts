@@ -15,7 +15,7 @@ import {Component} from "@angular/core";
         <router-outlet></router-outlet>
     `,
     styleUrls: [
-        './src/app/app.component.css'
+        './app.component.css'
     ]
 })
 
